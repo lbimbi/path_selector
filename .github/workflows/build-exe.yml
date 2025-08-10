@@ -26,7 +26,7 @@ jobs:
 
       - name: Build executable for Windows
         run: |
-          pyinstaller --onefile --windowed update_escore_paths.py
+          pyinstaller --onefile --windowed path_selector.py
         working-directory: ./  # Adjust if your script is in a subdirectory
 
       - name: Archive Windows executable
